@@ -1,0 +1,51 @@
+body{
+  background-color: $lightGray;
+}
+
+.material{
+  height: 98vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center{
+  display: flex;
+  flex-direction: column;
+  width: 21.875rem;
+  height: 33rem;
+  background-color: $white;
+  border-radius: 0.9375rem;
+  overflow: hidden;
+  align-items: center;
+}
+
+.qr{
+  border-radius: 0.625rem;
+  width: 90%;
+  margin: 1rem 0.75rem 0.75rem 0.75rem;
+}
+
+.main{
+  color: $darkBlue;
+  margin: 0;
+  font-family: Outfit;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 0.75rem;
+  padding-left: 1.0625rem;
+  padding-right: 1.0625rem;
+}
+
+.next{
+  margin: 0;
+  color: $grayishBlue;
+  font-family: Outfit;
+  font-weight: 400;
+  font-size: 0.9375rem;
+  text-align: center;
+  margin-top: 0.75rem;
+  padding-left: 3.125rem;
+  padding-right: 3.125rem;
+}
